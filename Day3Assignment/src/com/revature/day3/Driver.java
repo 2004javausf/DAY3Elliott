@@ -10,7 +10,14 @@ public class Driver {
 		d.setSize("HUGE");
 		
 		System.out.println(d.getSize());
-
+		
+		VideoGame game = new VideoGame();
+		game.setGenre("Shooter");
+		game.setRating("M");
+		game.setTitle("Apex Legends Obviously");
+		
+		System.out.println(game.getTitle());
+		
 	}
 
 }
