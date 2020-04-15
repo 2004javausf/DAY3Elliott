@@ -16,5 +16,6 @@ public class Driver {
 		vg.setTitle("Halo");
 		vg.setGenre("Sci-fi FPS");
 		vg.setRating("T-M");
+		System.out.println(vg);
 	}
 }
